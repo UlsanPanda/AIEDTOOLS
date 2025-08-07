@@ -21,8 +21,19 @@ header {
     left: 0;
     width: 100%;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
     z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 nav ul {
@@ -54,7 +65,7 @@ main {
 
 section {
     padding: 60px 0;
-    border-bottom: 1px solid #333333;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 #hero {
@@ -79,9 +90,10 @@ section {
 }
 
 .tool-card {
-    background-color: #1e1e3f;
-    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
     border-radius: 10px;
+    padding: 30px;
     box-shadow: 0 0 20px rgba(255, 0, 255, 0.2);
     transition: transform 0.3s;
     cursor: pointer;
@@ -108,9 +120,10 @@ section {
 }
 
 .step {
-    background-color: #1e1e3f;
-    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
     border-radius: 10px;
+    padding: 30px;
 }
 
 .step h3 {
@@ -124,9 +137,10 @@ section {
 }
 
 .quiz-container {
-    background-color: #1e1e3f;
-    padding: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
     border-radius: 10px;
+    padding: 40px;
 }
 
 .quiz-question {
@@ -167,7 +181,8 @@ section {
 }
 
 .modal-content {
-    background-color: #1e1e3f;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
     margin: 15% auto;
     padding: 40px;
     border: 1px solid #888;
